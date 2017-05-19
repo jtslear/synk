@@ -1,11 +1,6 @@
 'use strict';
 
 exports.http = (request, response) => {
-  console.log('Hello from "http"');
+  console.log('http');
   response.status(200).send('Hello World!');
-};
-
-exports.event = (event, callback) => {
-  console.log('Hello from "event"');
-  callback();
 };
