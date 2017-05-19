@@ -9,10 +9,6 @@ provider:
 plugins:
   - serverless-google-cloudfunctions
 
-package:
-  include:
-    - first/**
-
 functions:
   first:
     handler: http
